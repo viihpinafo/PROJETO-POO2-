@@ -3,8 +3,7 @@ package br.com.paroquia.view;
 import br.com.paroquia.model.*;
 import br.com.paroquia.controller.*;
 
-//Apache NetBeans IDE 27
-//Nome: Vitória Pinafo RA: 2525933
+
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

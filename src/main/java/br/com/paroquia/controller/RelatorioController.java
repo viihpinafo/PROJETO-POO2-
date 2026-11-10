@@ -1,5 +1,5 @@
 package br.com.paroquia.controller;
-import br.com.paroquia.repository.RepositorioMemoria;
+import br.com.paroquia.repository.RepositorioMySQL;
 import br.com.paroquia.model.*;
 import java.math.BigDecimal;
 import java.time.format.DateTimeFormatter;
@@ -11,7 +11,7 @@ public class RelatorioController {
     private static final DateTimeFormatter DIA=DateTimeFormatter.ofPattern("dd/MM/yyyy");
     private static String opcional(String texto) { return texto==null?"":texto; }
     public Dados consultar(String modulo) {
-        RepositorioMemoria repositorio=RepositorioMemoria.getInstancia();
+       RepositorioMySQL repositorio=RepositorioMySQL.getInstancia();
         List<Object[]> linhas=new ArrayList<>();
         String[] colunas;
         String resumo="";

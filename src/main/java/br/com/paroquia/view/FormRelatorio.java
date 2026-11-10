@@ -4,7 +4,7 @@ import br.com.paroquia.model.*;
 import br.com.paroquia.controller.*;
 import br.com.paroquia.infra.*;
 
-/* Nome: Vitória Pinafo RA: 2525933
+/*
  *
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template

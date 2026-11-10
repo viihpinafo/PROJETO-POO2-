@@ -1,7 +1,7 @@
 package br.com.paroquia.model;
 
 
-//Nome: Vitória Pinafo RA: 2525933
+
 public final class Padre extends Fiel implements Celebracao{
 
 	private String nomeparoquia;

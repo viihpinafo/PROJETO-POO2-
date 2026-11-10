@@ -2,11 +2,12 @@ package br.com.paroquia.controller;
 
 import br.com.paroquia.infra.Conversores;
 import br.com.paroquia.model.*;
-import br.com.paroquia.repository.RepositorioMemoria;
+import br.com.paroquia.repository.RepositorioMySQL; 
 
-/** Regras de negócio dos novos cadastros, sem dependência de banco. */
+/** Regras de negócio dos novos cadastros, agora salvando no MySQL. */
 public class CadastroController {
-    private final RepositorioMemoria repositorio = RepositorioMemoria.getInstancia();
+    private final RepositorioMySQL repositorio = RepositorioMySQL.getInstancia(); 
+
 
     private void exigirFiel(String cpf, String papel) {
         if (new FielController().consultar(cpf)==null)
